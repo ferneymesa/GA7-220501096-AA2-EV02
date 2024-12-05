@@ -1,0 +1,262 @@
+/* 
+    Created on : 30/11/2024, 10:21:19 p. m.
+    Author     : Usuario
+*/
+
+.cssBody{
+    text-align: center;
+    background: linear-gradient(85deg, #1a29e5, #0ff, #ffffff);
+}
+
+/*.cssBody{
+    text-align: center;
+    background: linear-gradient(85deg, #1a29e5, #0ff, #ffffff);
+} */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.body-add{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.logoImg{
+    width: 70%;
+}
+
+.textos{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.title-index, .title-buscar{
+    text-decoration: none;
+    color: black;
+
+}
+
+.title-index:hover , .title-buscar:hover {
+    color: #00008B;
+    font-size: 27px;
+    padding: 10px;
+    margin:0;
+    border-bottom: 2px solid #00008B;
+    border: 2px solid #00008B;
+    border-radius: 5px;
+}
+
+.body-listar{
+    text-align: center;
+    background: linear-gradient(85deg, #1a29e5, #0ff, #ffffff);
+}
+
+.containerDiv{
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.tabla {
+    border-collapse: collapse;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Ajustes para pantallas de 769px en adelante */
+@media (min-width: 769px) {
+    .tabla {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .tabla th:nth-child(1), .tabla td:nth-child(1) {
+        width: 10%;
+    }
+
+    .tabla th:nth-child(2), .tabla td:nth-child(2) {
+        width: 20%;
+    }
+
+    .tabla th:nth-child(3), .tabla td:nth-child(3) {
+        width: 30%;
+    }
+
+    .tabla th:nth-child(4), .tabla td:nth-child(4) {
+        width: 15%;
+    }
+
+    .tabla th:nth-child(5), .tabla td:nth-child(5) {
+        width: 15%;
+    }
+
+    .tabla th:nth-child(6), .tabla td:nth-child(6) {
+        width: 10%;
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .tabla {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+}
+
+.botonera{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonera a{
+    color: black;
+    font-size:24px;
+    margin: 10px;
+}
+
+.botonera a:hover{
+    color: #00008B;
+    font-size: 27px;
+    padding: 10px;
+    margin:0;
+    border-bottom: 2px solid #00008B;
+    border: 2px solid #00008B;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.class-var{
+    display: flex;
+    flex-direction: column;
+}
+
+.class-var var{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.var-Doc p, .var-Nom p, .var-Tel p, .var-Area p, .var-Email p, .var-Url p{
+    width: 20%;
+    gap: 20px;
+    height: 30px;
+    margin: 0 2.5%;
+    align-content: center;
+    text-align: right;
+    font-size:20px;
+    font-weight: bold;
+}
+.var-Doc input, .var-Nom input, .var-Tel input, .var-Area input, .var-Email input, .var-Url input{
+    width: 70%;
+    height: 30px;
+    align-content: center;
+    margin: 10px;
+    font-size:24px;
+}
+
+.var-InpAgrerar{
+    display: flex;
+}
+
+.inputAgregar{
+    width: 80%;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 30px;
+    background: #a1c0e1;
+    margin: 30px;
+}
+
+.inputAgregar:hover{
+    transform: scale(1.1);
+    background: #4de383;
+    border: 2px solid black;
+}
+
+.btn-Buscar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.labelBuscar{
+    width: 23%;
+    height: 30px;
+    text-align: end;
+    font-weight: bold;
+
+}
+
+.inputText{
+    width: 67%;
+    height: 30px;
+    font-size: 22px;
+
+}
+
+.inputBtn{
+    width: 20%;
+    height: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    background: #a1c0e1;
+}
+
+.inputBtn:hover{
+    transform: scale(1.1);
+    background: #4de383;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+@media (max-width: 1023px) {
+    .labelBuscar{
+        font-size: 20px;
+    }
+    
+    .inputBtn{
+        font-size: 20px;
+    }
+}
